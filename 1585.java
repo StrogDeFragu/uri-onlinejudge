@@ -1,0 +1,21 @@
+import java.util.Scanner;
+
+/**
+ * Created by mathe on 03/03/2016.
+ */
+public class Main {
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+
+        int n = input.nextInt();
+
+        for (int i = 0; i < n; i++) {
+            int x = input.nextInt();
+            int y = input.nextInt();
+
+            int resultado = (x * y) / 2;
+
+            System.out.println(resultado + " cm2");
+        }
+    }
+}
